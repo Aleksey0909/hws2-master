@@ -3,6 +3,7 @@ import s from './Stand.module.css'
 import SuperInputText from './common/c1-SuperInputText/SuperInputText'
 import SuperCheckbox from './common/c3-SuperCheckbox/SuperCheckbox'
 import SuperButton from './common/c2-SuperButton/SuperButton'
+import {dividerClasses} from "@mui/material";
 
 const Stand = () => {
     const [stateForAllInputs, setValue] = useState<string>('')
